@@ -21,7 +21,6 @@ const mapDispatchToProps = dispatch => ({
 
 class App extends Component {
   componentDidMount() {
-    console.log(this.props)
     this.props.onRequestRobots();
   }
 
